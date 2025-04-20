@@ -10,6 +10,7 @@ const Layout = () => {
         <li><Link to="/" style={styles.link}>Home</Link></li>
         <li><Link to="/Authordetails" style={styles.link}>Insert Author</Link></li>
         <li><Link to="/BookDetails" style={styles.link}>Insert Book Details</Link></li>
+        <li><Link to="/display" style={styles.link}>Display All Details</Link></li>
       </ul>
     </nav>
 

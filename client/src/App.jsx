@@ -4,6 +4,7 @@ import Layout from './Layout';
 import Home from './pages/Home';
 import Authordetails from './pages/Authordetails';
 import BookDetails from './pages/BookDetails';
+import Display from './pages/Display';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/Authordetails" element={<Authordetails />} />
         <Route path="/BookDetails" element={<BookDetails />} />
+        <Route path="/display" element={<Display />} />
         
         
         
